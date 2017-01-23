@@ -13,6 +13,7 @@ class CheckLogin
      * @param  \Closure  $next
      * @return mixed
      */
+    //Check if the input was email or username for login
     public function handle($request, Closure $next)
     {
         $field = filter_var($request->input('login'), FILTER_VALIDATE_EMAIL) ? 'email' : 'user_name';
