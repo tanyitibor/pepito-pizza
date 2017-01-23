@@ -1,0 +1,14 @@
+{
+	"compilerOptions": {
+		"target": "es5",
+		"module": "amd",
+		"outFile": "public/js/ShoppingCart.js",
+		"removeComments": true
+	},
+	"files": [
+		"resources/assets/ts/ShoppingCart.ts"
+	],
+	"include": [
+		"resources/assets/ts/Definitions/*"
+	]
+}
