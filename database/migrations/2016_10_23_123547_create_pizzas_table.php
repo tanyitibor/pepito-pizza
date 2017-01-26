@@ -18,9 +18,9 @@ class CreatePizzasTable extends Migration
             $table->increments('id');
             $table->string('name')->unique();
             $table->string('description');
-            $table->integer('price_24cm', 6, 2);
-            $table->integer('price_32cm', 6, 2);
-            $table->integer('price_40cm', 6, 2);
+            $table->integer('price_24cm');
+            $table->integer('price_32cm');
+            $table->integer('price_40cm');
             $table->string('image');
             $table->string('thumb_image');
         });
