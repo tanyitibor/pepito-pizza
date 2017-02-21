@@ -42,7 +42,7 @@ class UserController extends Controller
 	//update permissions
 	public function update(Request $request, User $user)
 	{
-		$this->authorize('udpate', User::class);
+		$this->authorize('update', User::class);
 		if(!$user) return redirect()->back();
 
 		$this->validate($request, [

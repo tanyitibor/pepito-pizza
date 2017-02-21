@@ -17,7 +17,6 @@ class CreatePizzasTable extends Migration
         Schema::create('pizzas', function(Blueprint $table) {
             $table->increments('id');
             $table->string('name')->unique();
-            $table->string('description');
             $table->integer('price_24cm');
             $table->integer('price_32cm');
             $table->integer('price_40cm');
