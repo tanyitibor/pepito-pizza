@@ -53,7 +53,7 @@
 		<div class="form-group row{{($errors->has('phone_number') ? ' has-error' : '')}}">
 			<label for="phone_number" class="col-sm-4">Phone Number</label>
 			<div class="col-sm-8">
-				<input type="password" class="form-control" name="phone_number" id="phone_number" placeholder="Phone Number" required>
+				<input type="tel" class="form-control" name="phone_number" id="phone_number" placeholder="Phone Number" required>
 				@if ($errors->has('phone_number'))
 				<div class="help-block">
 					{{$errors->first('phone_number')}}

@@ -16,7 +16,7 @@ class ToppingController extends Controller
 	private function rules()
 	{
 		return [
-			'name'	=> 'required|alpha|max:30|unique:toppings',
+			'name'	=> 'required|regex:/^[\pL\s\-]+$/u|max:30|unique:toppings',
 		];
 	}
 

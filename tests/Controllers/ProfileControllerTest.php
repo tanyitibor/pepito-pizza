@@ -6,6 +6,8 @@ use Illuminate\Foundation\Testing\DatabaseTransactions;
 
 class ProfileControllerTest extends TestCase
 {
+    use DatabaseTransactions;
+
     public function testProfileIndex()
     {
         $user = factory(App\User::class)->create();
