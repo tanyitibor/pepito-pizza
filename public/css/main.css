@@ -55,3 +55,7 @@
 .toppings td {
 	width: 33%;
 }
+
+.pizza-list > div {
+	margin-bottom: 10px;
+}
