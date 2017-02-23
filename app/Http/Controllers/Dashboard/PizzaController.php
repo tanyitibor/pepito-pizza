@@ -7,12 +7,13 @@ use App\Topping;
 use App\Pizza;
 use App\PizzaTopping;
 use Illuminate\Http\Request;
+use Illuminate\Validation\Rule;
 
 class PizzaController extends Controller
 {
 	private function rules() {
 		$rules = [
-			'name'			=> 'required|unique:pizzas|max:50',
+			'name'			=> ['required','unique:pizzas', 'max:50'],
 			'price_24cm'	=> 'required|numeric',
 			'price_32cm'	=> 'required|numeric',
 			'price_40cm'	=> 'required|numeric',
@@ -113,7 +114,10 @@ class PizzaController extends Controller
 		if(!$pizza) return redirect()->back();
 
 		$rules = $this->rules();
-		$rules['name'] = 'required';
+		if($request->input('name') == $pizza->name) unset($rules['name'][1]);
+
+		if(!$request->hasFile('image')) unset($rules['image']);
+
 		$this->validate($request, $rules);
 
 		$difference = $this->difference($request, $pizza);
@@ -136,7 +140,7 @@ class PizzaController extends Controller
 		if(!empty($difference['toppings']['plus'])) {
 			foreach ($difference['toppings']['plus'] as $topping) {
 				$query[] = [
-					'pizza_id'	=> $pizzaId,
+					'pizza_id'	=> $pizza->id,
 					'topping_id'=> $topping
 				];
 			}
