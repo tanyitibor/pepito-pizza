@@ -9,7 +9,7 @@
 		<div class="col col-xs-3">
 			<a href="{{url('/contact')}}">Contact</a></div>
 		<div class="col col-xs-3">
-			<a href="">
+			<a href="https://github.com/tanyitibor/pepito-pizza">
 				<img src="https://assets-cdn.github.com/images/modules/logos_page/GitHub-Logo.png" alt="Github" class="github-logo">
 			</a>
 		</div>
