@@ -16,7 +16,6 @@ class Kernel extends ConsoleKernel
         //
         Commands\AddUser::class,
         Commands\AddPermissions::class,
-        Commands\DBGenerateSeed::class,
     ];
 
     /**
