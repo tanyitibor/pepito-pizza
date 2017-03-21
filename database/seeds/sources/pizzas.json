@@ -1,0 +1,97 @@
+[{
+	"id": 1,
+	"name": "Ham pizza with cheese",
+	"price_24cm": 880,
+	"price_32cm": 1280,
+	"price_40cm": 1880,
+	"image": "img\/Ham_pizza_with_cheese.jpg",
+	"thumb_image": "img\/thumb\/Ham_pizza_with_cheese.jpg"
+}, {
+	"id": 2,
+	"name": "Ham pizza",
+	"price_24cm": 690,
+	"price_32cm": 840,
+	"price_40cm": 1290,
+	"image": "img\/Ham_pizza.jpg",
+	"thumb_image": "img\/thumb\/Ham_pizza.jpg"
+}, {
+	"id": 3,
+	"name": "Gyros pizza",
+	"price_24cm": 880,
+	"price_32cm": 1280,
+	"price_40cm": 1880,
+	"image": "img\/Gyros_pizza.jpg",
+	"thumb_image": "img\/thumb\/Gyros_pizza.jpg"
+}, {
+	"id": 4,
+	"name": "Hawaiian pizza",
+	"price_24cm": 880,
+	"price_32cm": 1280,
+	"price_40cm": 1880,
+	"image": "img\/Hawaiian_pizza.jpg",
+	"thumb_image": "img\/thumb\/Hawaiian_pizza.jpg"
+}, {
+	"id": 5,
+	"name": "Pepperoni pizza",
+	"price_24cm": 880,
+	"price_32cm": 1280,
+	"price_40cm": 1880,
+	"image": "img\/Pepperoni_pizza.jpg",
+	"thumb_image": "img\/thumb\/Pepperoni_pizza.jpg"
+}, {
+	"id": 6,
+	"name": "Four seasons pizza",
+	"price_24cm": 880,
+	"price_32cm": 1280,
+	"price_40cm": 1880,
+	"image": "img\/Four_seasons_pizza.jpg",
+	"thumb_image": "img\/thumb\/Four_seasons_pizza.jpg"
+}, {
+	"id": 7,
+	"name": "Bolognese pizza",
+	"price_24cm": 880,
+	"price_32cm": 1280,
+	"price_40cm": 1880,
+	"image": "img\/Bolognese_pizza.jpg",
+	"thumb_image": "img\/thumb\/Bolognese_pizza.jpg"
+}, {
+	"id": 8,
+	"name": "Mushroom pizza",
+	"price_24cm": 690,
+	"price_32cm": 840,
+	"price_40cm": 1290,
+	"image": "img\/Mushroom_pizza.jpg",
+	"thumb_image": "img\/thumb\/Mushroom_pizza.jpg"
+}, {
+	"id": 9,
+	"name": "Mexican pizza",
+	"price_24cm": 980,
+	"price_32cm": 1380,
+	"price_40cm": 2180,
+	"image": "img\/Mexican_pizza.jpg",
+	"thumb_image": "img\/thumb\/Mexican_pizza.jpg"
+}, {
+	"id": 10,
+	"name": "Spicy pepperoni pizza",
+	"price_24cm": 980,
+	"price_32cm": 1380,
+	"price_40cm": 2180,
+	"image": "img\/Spicy_pepperoni_pizza.jpg",
+	"thumb_image": "img\/thumb\/Spicy_pepperoni_pizza.jpg"
+}, {
+	"id": 11,
+	"name": "Meatlover pizza",
+	"price_24cm": 980,
+	"price_32cm": 1380,
+	"price_40cm": 2180,
+	"image": "img\/Meatlover_pizza.jpg",
+	"thumb_image": "img\/thumb\/Meatlover_pizza.jpg"
+}, {
+	"id": 12,
+	"name": "BBQ pizza",
+	"price_24cm": 880,
+	"price_32cm": 1280,
+	"price_40cm": 1880,
+	"image": "img\/BBQ_pizza.jpg",
+	"thumb_image": "img\/thumb\/BBQ_pizza.jpg"
+}]
