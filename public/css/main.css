@@ -1,61 +1,53 @@
 .pizza-prices > div {
-	line-height: 22px;
+  line-height: 22px;
 }
 
 .add-pizza-btn {
-	border: 1px solid;
-	width: 20px;
-	height: 20px;
-	font-size: 18px;
-	display: inline-block;
-	line-height: 18px;
-	text-align: center;
-	border-radius: 10px;
+  border: 1px solid;
+  width: 20px;
+  height: 20px;
+  font-size: 18px;
+  display: inline-block;
+  line-height: 18px;
+  text-align: center;
+  border-radius: 10px;
 }
 
-.pizza-prices > div {
-	cursor: pointer;
+.pizza-prices div {
+  cursor: pointer;
 }
 
-.pizza-prices > div:hover {
-	color: #2F6AF7;
-}
-
-.pointer {
-	cursor: pointer;
-}
-
-.site-sidebar th, .site-sidebar td {
-	text-align: center;
-}
-
-.footer {
-	padding: 10px 0px;
-	background-color: #eee;
-}
-
-.footer div div:not(:last-child) {
-	border-right: 1px solid black;
-}
-
-.footer .github-logo {
-	width: 100px;
-}
-
-
-.address-name {
-	color:#555;
-	cursor: pointer;
-}
-
-.address-name:hover {
-	text-decoration: underline;
-}
-
-.toppings td {
-	width: 33%;
+.pizza-prices div:hover {
+  color: #2F6AF7;
 }
 
 .pizza-list > div {
-	margin-bottom: 10px;
+  margin-bottom: 10px;
 }
+
+.pointer {
+  cursor: pointer;
+}
+
+.site-sidebar th, .site-sidebar td {
+  text-align: center;
+}
+
+.footer {
+  padding: 10px 0px;
+  background-color: #eee;
+}
+
+.footer div div:not(:last-child) {
+  border-right: 1px solid black;
+}
+
+.footer .github-logo {
+  width: 100px;
+}
+
+.toppings td {
+  width: 33%;
+}
+
+/*# sourceMappingURL=main.css.map */

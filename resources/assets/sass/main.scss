@@ -1,0 +1,26 @@
+@import 'partials/_pizzas';
+
+.pointer {
+	cursor: pointer;
+}
+
+.site-sidebar th, .site-sidebar td {
+	text-align: center;
+}
+
+.footer {
+	padding: 10px 0px;
+	background-color: #eee;
+
+	div div:not(:last-child) {
+		border-right: 1px solid black;
+	}
+
+	.github-logo {
+		width: 100px;
+	}
+}
+
+.toppings td {
+	width: 33%;
+}

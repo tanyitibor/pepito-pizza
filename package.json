@@ -1,4 +1,5 @@
 {
+  "name": "pepito-pizza",
   "private": true,
   "scripts": {
     "prod": "gulp --production",

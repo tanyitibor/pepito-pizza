@@ -1,0 +1,28 @@
+.pizza-prices > div {
+	line-height: 22px;
+}
+
+.add-pizza-btn {
+	border: 1px solid;
+	width: 20px;
+	height: 20px;
+	font-size: 18px;
+	display: inline-block;
+	line-height: 18px;
+	text-align: center;
+	border-radius: 10px;
+}
+
+.pizza-prices{
+	div {
+		cursor: pointer;
+	}
+
+	div:hover {
+		color: #2F6AF7;
+	}
+} 
+
+.pizza-list > div {
+	margin-bottom: 10px;
+}
