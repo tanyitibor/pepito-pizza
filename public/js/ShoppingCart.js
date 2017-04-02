@@ -26,6 +26,7 @@ define("Modules/SideBarCart", ["require", "exports"], function (require, exports
             var removeItem = this.template.col('remove', this.template.removeButton(item, this.shoppingCart.removeItem.bind(this.shoppingCart)));
             row.append(nameItem, sizeItem, piecesItem, removeItem);
             this.cartBody().append(row);
+            this.updatePrice();
         };
         SideBarCart.prototype.removeItem = function (item) {
             this.cartBody()
@@ -169,7 +170,7 @@ define("ShoppingCart", ["require", "exports", "Modules/SideBarCart", "Modules/Ch
                     pieces: 1,
                     size: size,
                     price: parseInt($('.pizza-item-' + id)
-                        .find('.pizza-price-' + size)
+                        .find('.pizza-price-' + size + ' .price')
                         .text().trim())
                 };
                 this.addNewItem(item);

@@ -12,19 +12,19 @@
 	</div>
 	<div class="col-md-3 pizza-prices">
 		<div class="pizza-price-24" onclick="shoppingCart.addItem({{ $pizza->id }}, 24)">
-			24cm: {{ $pizza->priceWithCurrency(24) }}
+			24cm: <span class="price">{{ $pizza->priceWithCurrency(24) }}</span>
 			<span style="display:none;">
 				<span class="add-pizza-btn">+</span>
 			</span>
 		</div>
 		<div class="pizza-price-32" onclick="shoppingCart.addItem({{ $pizza->id }}, 32)">
-			32cm: {{ $pizza->priceWithCurrency(32) }}
+			32cm: <span class="price">{{ $pizza->priceWithCurrency(32) }}</span>
 			<span style="display:none;">
 				<span class="add-pizza-btn">+</span>
 			</span>
 		</div>
 		<div class="pizza-price-40" onclick="shoppingCart.addItem({{ $pizza->id }}, 40)">
-			40cm: {{ $pizza->priceWithCurrency(40) }}
+			40cm: <span class="price">{{ $pizza->priceWithCurrency(40) }}</span>
 			<span style="display:none;">
 				<span class="add-pizza-btn">+</span>
 			</span>

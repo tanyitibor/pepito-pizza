@@ -28,7 +28,7 @@ export class ShoppingCart {
 				pieces: 1,
 				size: size,
 				price: parseInt($('.pizza-item-' + id)
-								.find('.pizza-price-' + size)
+								.find('.pizza-price-' + size + ' .price')
 								.text().trim())
 			}
 			

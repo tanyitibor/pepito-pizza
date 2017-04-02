@@ -45,6 +45,8 @@ export class SideBarCart {
 		row.append(nameItem, sizeItem, piecesItem, removeItem);
 
 		this.cartBody().append(row);
+
+		this.updatePrice();
 	}
 
 	removeItem(item: IItem) {
