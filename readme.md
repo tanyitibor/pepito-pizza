@@ -3,4 +3,4 @@
 
 ## Demo
 
-http://79.172.212.102:5001
+http://pepitopizza.tk/
